@@ -14,8 +14,8 @@ target_include_directories(GLAD
 
 target_compile_definitions(GLAD 
     PRIVATE 
-        NOU_GLAD_EXPORT
-        NOU_GLAD_EXPORT_BUILD)
+        GLAD_GLAPI_EXPORT
+        GLAD_GLAPI_EXPORT_BUILD)
 
 install(TARGETS GLAD EXPORT NostraGLADTargets
     RUNTIME  DESTINATION "bin"
